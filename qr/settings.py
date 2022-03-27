@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(gj_5ll7g$1@9j54%w9cgqccqn5&7_$y1$bjga_v()v9pdqbf3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['qr-code-for-mobile.herokuapp.com', 'http://localhost:63343/']
+ALLOWED_HOSTS = ['qr-code-for-mobile.herokuapp.com', 'localhost:63343']
 
 
 # Application definition
