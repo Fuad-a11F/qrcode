@@ -19,4 +19,4 @@ class CodeView(APIView):
 
         img.save('media/qwq1.jpg', 'JPEG')
 
-        return Response({"code": 'http://localhost:8000/media/qwq1.jpg'})
+        return Response({"code": 'https://qr-code-for-mobile.herokuapp.com/media/qwq1.jpg'})
